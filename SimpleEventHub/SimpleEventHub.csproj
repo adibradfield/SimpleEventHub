@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>AdrianBradfield.SimpleEventHub</PackageId>
+    <Authors>Adrian Bradfield</Authors>
+    <Company />
+    <PackageTags>event, aggregator, hub, decouple, decoupling</PackageTags>
+    <Description>A simple to use Event Hub that allows you to publish and subscribe to events of any type.</Description>
   </PropertyGroup>
 
 </Project>
