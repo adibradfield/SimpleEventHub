@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddEvent.cs" />
+    <Compile Include="AddEventExceptionHandling.cs" />
     <Compile Include="ModelEvents\BaseEvent.cs" />
     <Compile Include="ModelEvents\DerivedEvent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="TestHandlers\SyncBothCountingHandler.cs" />
     <Compile Include="TestHandlers\SyncDerivedCountingHandler.cs" />
     <Compile Include="TestHandlers\SyncBaseCountingHandler.cs" />
+    <Compile Include="TestHandlers\SyncThrowsExceptionHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
